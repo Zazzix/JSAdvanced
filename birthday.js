@@ -20,7 +20,5 @@ function birthYearCheck(date) {
 
     const days =  (current - birthday) / (1000 * 60 * 60 * 24);
 
-    return days < daysGap
+    return days > daysGap
 }
-
-console.log(birthYearCheck('2012-06-20'));

@@ -1,5 +1,5 @@
 'use strict';
-
+// Dice roll
 function roll(dice) {
     const diceSides = ['d4', 'd6', 'd8', 'd10', 'd12', 'd16', 'd20'];
 
@@ -18,8 +18,7 @@ function roll(dice) {
 
 }
 
-
-'use strict'
+//  Filter arr
 
 const arr = [
     { id: 1, name: 'Вася' },

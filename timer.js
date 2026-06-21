@@ -21,5 +21,5 @@ setInterval(() => {
     const daysToShow = totalDays % 30;
     const month = totalMonth;
 
-    console.log(`${month} месяцев, ${daysToShow} дней, ${hoursToShow} часов, ${minutesToShow} минут, ${secondsToShow} секунд`);
+    document.getElementById('timer').textContent = `${month} месяцев, ${daysToShow} дней, ${hoursToShow} часов, ${minutesToShow} минут, ${secondsToShow} секунд`;
 }, 1000)
